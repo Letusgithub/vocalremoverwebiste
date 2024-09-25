@@ -18,11 +18,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <MantineProvider theme={theme}>
-          <div style={{ display: 'flex' }}>
-            <div style={{ width: '10%' }}>
+          <div style={{ display: 'flex', backgroundColor:"#121212" }}>
+            <div style={{ width: '6%' }}>
               <NavbarMinimal /> 
             </div>
-            <div style={{ width: '90%', padding: '1rem' }}>
+            <div style={{ width: '94%', padding: '1rem' }}>
               {children}
             </div>
           </div>
