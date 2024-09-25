@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <MantineProvider theme={theme}>
-          <div style={{ display: 'flex', backgroundColor:"#121212", color:'white' }}>
+          <div style={{ display: 'flex', backgroundColor:"#121212", color:"white" }}>
             <div style={{ width: '6%' }}>
               <NavbarMinimal /> 
             </div>
